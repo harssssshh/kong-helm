@@ -521,10 +521,10 @@ ingressController:
 
 postgresql:
   enabled: true
-   postgresqlUsername: kong
-   postgresqlDatabase: kong
-   service:
-     port: 5432
+  postgresqlUsername: kong
+  postgresqlDatabase: kong
+  service:
+    port: 5432
 
 # -----------------------------------------------------------------------------
 # Miscellaneous parameters
