@@ -69,7 +69,14 @@ deployment:
 # e.g. setting pg_user here will override the value normally set when postgresql.enabled
 # is set below. In general, you should not set values here if they are set elsewhere.
 env:
-  database: "off"
+  database: "postgres"
+  pg_host: "db-postgresql-blr1-69564-do-user-11340293-0.b.db.ondigitalocean.com"
+  pg_port: "25060"
+  pg_user: "doadmin"
+  pg_password: "AVNS_JMU3ZNQvxrMxD2W"
+  pg_database: "defaultdb"
+  pg_ssl: "off"
+  pg_ssl_verify: "off"
   nginx_worker_processes: "2"
   proxy_access_log: /dev/stdout
   admin_access_log: /dev/stdout
